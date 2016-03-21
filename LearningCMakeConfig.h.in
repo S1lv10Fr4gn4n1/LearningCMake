@@ -1,0 +1,14 @@
+//
+// Created by Silvio Fragnani da Silva on 20/03/16.
+//
+
+#ifndef LEARNINGCMAKE_LEARNINGCMAKECONFIG_H
+#define LEARNINGCMAKE_LEARNINGCMAKECONFIG_H
+
+// the configured options and settings for Tutorial
+#define LearningCMake_VERSION_MAJOR @LearningCMake_VERSION_MAJOR@
+#define LearningCMake_VERSION_MINOR @LearningCMake_VERSION_MINOR@
+
+#cmakedefine USE_MY_LIBRARY
+
+#endif //LEARNINGCMAKE_LEARNINGCMAKECONFIG_H
